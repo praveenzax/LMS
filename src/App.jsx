@@ -36,6 +36,7 @@ function ProtectedRoute({ children }) {
 function AppRoutes() {
   return (
     <Routes>
+      <h1>helllo</h1>
       {/* Public */}
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
@@ -61,6 +62,7 @@ function AppRoutes() {
       <Route path="/settings" element={<ProtectedRoute><PageWrapper><Settings /></PageWrapper></ProtectedRoute>} />
 
       <Route path="*" element={<Navigate to="/dashboard" replace />} />
+      <h1>Hello</h1>
     </Routes>
   );
 }

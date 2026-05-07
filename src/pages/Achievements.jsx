@@ -16,6 +16,7 @@ export default function Achievements() {
   return (
     <div>
       <div className="page-header">
+        <h1>hello</h1>
         <h1 className="mb-1">Academic Achievements</h1>
         <p className="mb-0">Your certificates, awards, and competition recognitions</p>
       </div>
